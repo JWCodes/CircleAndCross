@@ -1,0 +1,49 @@
+div.PlayArea { width : 15em;
+			  height : 15em; 
+			  border : medium solid black;                
+			  background-color : gray; }
+
+div.info { background-color : gray; 
+		  width : 30em; 
+		  border : medium solid black;
+		  font-family : Arial; }
+
+div.EmptyField { width : 3em;
+				height : 3em;
+				border : thin black dotted; }
+
+div.CircleField { width : 3em;
+				height : 3em;
+				border : medium green solid;
+				border-radius : 5em; }
+
+div.CrossTopLeft { width : 1em;
+				  height : 1em;
+				  border-top : medium red solid;
+				  border-left : medium red solid; 
+				  border-radius : 1em; }
+
+div.CrossTopRight { width : 1em;
+				  height : 1em;
+				  border-top : medium red solid;
+				  border-right : medium red solid;
+				  border-radius : 1em; }
+
+div.CrossBottomLeft { width : 1em;
+				  height : 1em;
+				  border-bottom : medium red solid;
+				  border-left : medium red solid; 
+				  border-radius : 1em; }
+
+div.CrossBottomRight { width : 1em;
+				  height : 1em;
+				  border-bottom : medium red solid;
+				  border-right : medium red solid;
+				  border-radius : 1em; }  
+
+td.Field         { width : 5em;
+			  height : 5em; }
+
+body  { background-image : url("background.png"); 
+	   margin-top : 5%;
+	   text-align : center; }

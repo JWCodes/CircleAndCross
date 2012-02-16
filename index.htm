@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Circle and cross</title>
+	<link rel="StyleSheet" type="text/css" href="style.css">
+</head>
+<body>
+	<script type="text/javascript" src="CoreFunctions.js"></script>
+	
+	<center>
+	
+	<div class="info">
+	<h1>Circle AND Cross</h1>
+	</div>
+	
+	<br />
+	<br />
+	
+	<div class="info">
+	<h3>Game mode: Player vs Player</h3><br />
+	<h5>Circles begin. Good luck!</h5>
+	</div>
+	
+	<br />
+	<br />
+	
+	<div class="PlayArea">
+
+	<table>
+	<TR>
+		<TD class="Field" id="00" onclick="MakeMove(0, 0, this);"><DIV class="EmptyField"></DIV></TD>
+		<TD class="Field" id="10" onclick="MakeMove(1, 0, this);"><DIV class="EmptyField"></DIV></TD>
+		<TD class="Field" id="20" onclick="MakeMove(2, 0, this);"><DIV class="EmptyField"></DIV></TD>
+	</TR>
+	
+	<TR>
+		<TD class="Field" id="01" onclick="MakeMove(0, 1, this);"><DIV class="EmptyField"></DIV></TD>
+		<TD class="Field" id="11" onclick="MakeMove(1, 1, this);"><DIV class="EmptyField"></DIV></TD>
+		<TD class="Field" id="21" onclick="MakeMove(2, 1, this);"><DIV class="EmptyField"></DIV></TD>
+	</TR>
+	
+	<TR>
+		<TD class="Field" id="02" onclick="MakeMove(0, 2, this);"><DIV class="EmptyField"></DIV></TD>
+		<TD class="Field" id="12" onclick="MakeMove(1, 2, this);"><DIV class="EmptyField"></DIV></TD>
+		<TD class="Field" id="22" onclick="MakeMove(2, 2, this);"><DIV class="EmptyField"></DIV></TD>
+	</TR>
+	</table>
+
+	</div>
+	
+	</center>
+</body>
+</html>
