@@ -3,10 +3,9 @@
 <head>
 	<title>Circle and cross</title>
 	<link rel="StyleSheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="CoreFunctions.js"></script>
 </head>
 <body>
-	<script type="text/javascript" src="CoreFunctions.js"></script>
-	
 	<center>
 	
 	<div class="info">
@@ -28,26 +27,28 @@
 
 	<table>
 	<TR>
-		<TD class="Field" id="00" onclick="MakeMove(0, 0, this);"><DIV class="EmptyField"></DIV></TD>
-		<TD class="Field" id="10" onclick="MakeMove(1, 0, this);"><DIV class="EmptyField"></DIV></TD>
-		<TD class="Field" id="20" onclick="MakeMove(2, 0, this);"><DIV class="EmptyField"></DIV></TD>
+		<TD class="Field" id="00"><DIV class="EmptyField"></DIV></TD>
+		<TD class="Field" id="10"><DIV class="EmptyField"></DIV></TD>
+		<TD class="Field" id="20"><DIV class="EmptyField"></DIV></TD>
 	</TR>
 	
 	<TR>
-		<TD class="Field" id="01" onclick="MakeMove(0, 1, this);"><DIV class="EmptyField"></DIV></TD>
-		<TD class="Field" id="11" onclick="MakeMove(1, 1, this);"><DIV class="EmptyField"></DIV></TD>
-		<TD class="Field" id="21" onclick="MakeMove(2, 1, this);"><DIV class="EmptyField"></DIV></TD>
+		<TD class="Field" id="01"><DIV class="EmptyField"></DIV></TD>
+		<TD class="Field" id="11"><DIV class="EmptyField"></DIV></TD>
+		<TD class="Field" id="21"><DIV class="EmptyField"></DIV></TD>
 	</TR>
 	
 	<TR>
-		<TD class="Field" id="02" onclick="MakeMove(0, 2, this);"><DIV class="EmptyField"></DIV></TD>
-		<TD class="Field" id="12" onclick="MakeMove(1, 2, this);"><DIV class="EmptyField"></DIV></TD>
-		<TD class="Field" id="22" onclick="MakeMove(2, 2, this);"><DIV class="EmptyField"></DIV></TD>
+		<TD class="Field" id="02"><DIV class="EmptyField"></DIV></TD>
+		<TD class="Field" id="12"><DIV class="EmptyField"></DIV></TD>
+		<TD class="Field" id="22"><DIV class="EmptyField"></DIV></TD>
 	</TR>
 	</table>
 
 	</div>
 	
 	</center>
+	
+	<script type="text/javascript"> window.onload = Load; </script>
 </body>
 </html>
