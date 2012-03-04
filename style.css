@@ -32,7 +32,7 @@
 .Field         {  width : 5em;
 			  height : 5em; }
 
-.CrossTD .DIV  { width : 1em;
+td.CrossTD :DIV  { width : 1em;
 			   height : 1em; 
 		       border-radius : 1em;}
 

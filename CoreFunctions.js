@@ -31,8 +31,11 @@ function RestartGame()
 	document.getElementById("22").innerHTML = "<DIV class=\"EmptyField\">";
 }
 
-function MakeMove(x, y, field)
+function MakeMove(field)
 {
+	var x = field.id[0];
+	var y = field.id[1];
+	
 	if (playArea[x][y] != FieldValue.Empty)
 	{
 		alert('This move is not allowed!');
@@ -78,31 +81,31 @@ function MakeMove(x, y, field)
 function Load()
 {
 	var field00 = document.getElementById("00");
-	field00.addEventListener("click", function () { MakeMove(field00.id[0], field00.id[1], field00); }, false);
+	field00.addEventListener("click", function () { MakeMove(field00); }, false);
 	
 	var field01 = document.getElementById("01");
-	field01.addEventListener("click", function () { MakeMove(field01.id[0], field01.id[1], field01); }, false);
+	field01.addEventListener("click", function () { MakeMove(field01); }, false);
 	
 	var field02 = document.getElementById("02");
-	field02.addEventListener("click", function () { MakeMove(field02.id[0], field02.id[1], field02); }, false);
+	field02.addEventListener("click", function () { MakeMove(field02); }, false);
 	
 	var field10 = document.getElementById("10");
-	field10.addEventListener("click", function () { MakeMove(field10.id[0], field10.id[1], field10); }, false);
+	field10.addEventListener("click", function () { MakeMove(field10); }, false);
 	
 	var field11 = document.getElementById("11");
-	field11.addEventListener("click", function () { MakeMove(field11.id[0], field11.id[1], field11); }, false);
+	field11.addEventListener("click", function () { MakeMove(field11); }, false);
 	
 	var field12 = document.getElementById("12");
-	field12.addEventListener("click", function () { MakeMove(field12.id[0], field12.id[1], field12); }, false);
+	field12.addEventListener("click", function () { MakeMove(field12); }, false);
 	
 	var field20 = document.getElementById("20");
-	field20.addEventListener("click", function () { MakeMove(field20.id[0], field20.id[1], field20); }, false);
+	field20.addEventListener("click", function () { MakeMove(field20); }, false);
 	
 	var field21 = document.getElementById("21");
-	field21.addEventListener("click", function () { MakeMove(field21.id[0], field21.id[1], field21); }, false);
+	field21.addEventListener("click", function () { MakeMove(field21); }, false);
 	
 	var field22 = document.getElementById("22");
-	field22.addEventListener("click", function () { MakeMove(field22.id[0], field22.id[1], field22); }, false);
+	field22.addEventListener("click", function () { MakeMove(field22); }, false);
 }
 		
 function CheckForVictory()
